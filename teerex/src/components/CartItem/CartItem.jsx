@@ -72,7 +72,8 @@ const CartItem = ({ item }) => {
     const filteredData = cart.filter((data) => item.id !== data.id);
     // console.log(filteredData);
     let amount = 0;
-    cart.map((data) => {
+
+    cart.forEach((data) => {
       if (item.id === data.id) {
         amount = data.price * data.selQuantity;
       }
