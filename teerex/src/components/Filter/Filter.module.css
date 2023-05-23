@@ -1,0 +1,8 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 25%;
+  /* padding: 5px 50px; */
+  background-color: lightgrey;
+}
